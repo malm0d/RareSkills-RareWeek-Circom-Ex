@@ -1,0 +1,23 @@
+{
+  "name": "num-bits-circuits",
+  "version": "1.0.0",
+  "description": "Circuits for bitwise operations on 32-bit numbers using Num2Bits and Bits2Num",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js",
+    "test:and": "mocha bitwise_and.test.js",
+    "test:not": "mocha bitwise_not.test.js", 
+    "test:or": "mocha bitwise_or.test.js",
+    "test:even": "mocha even_number.test.js",
+    "test:left": "mocha left_shift.test.js",
+    "test:right": "mocha right_shift.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "circom_runtime": "^0.1.21",
+    "circomlib": "^2.0.5"
+  },
+  "keywords": ["circom", "zero-knowledge", "bitwise", "32-bit", "operations"],
+  "author": "",
+  "license": "MIT"
+}

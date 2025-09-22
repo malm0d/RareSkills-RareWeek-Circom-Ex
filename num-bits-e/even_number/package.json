@@ -1,0 +1,8 @@
+{
+  "name": "even-number-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom even_number.circom --r1cs --wasm --sym --output even_number_js",
+    "test": "mocha even_number.test.js"
+  }
+}

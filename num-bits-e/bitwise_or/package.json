@@ -1,0 +1,8 @@
+{
+  "name": "bitwise-or-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom bitwise_or.circom --r1cs --wasm --sym --output bitwise_or_js",
+    "test": "mocha bitwise_or.test.js"
+  }
+}

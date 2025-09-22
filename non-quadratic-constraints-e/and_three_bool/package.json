@@ -1,0 +1,8 @@
+{
+  "name": "and-three-bool-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mkdir -p and_three_bool_js && circom and_three_bool.circom --r1cs --wasm --sym -o and_three_bool_js",
+    "test": "mocha and_three_bool.test.js"
+  }
+}

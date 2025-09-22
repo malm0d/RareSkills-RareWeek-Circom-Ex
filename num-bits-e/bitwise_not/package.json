@@ -1,0 +1,8 @@
+{
+  "name": "bitwise-not-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom bitwise_not.circom --r1cs --wasm --sym --output bitwise_not_js",
+    "test": "mocha bitwise_not.test.js"
+  }
+}

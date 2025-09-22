@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test)",
+      "Read(//Users/jeffreyscholz/RareCode/zk-constraint-exercises/zk-constraint-exercises-q/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "left-shift-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom left_shift.circom --r1cs --wasm --sym --output left_shift_js",
+    "test": "mocha left_shift.test.js"
+  }
+}

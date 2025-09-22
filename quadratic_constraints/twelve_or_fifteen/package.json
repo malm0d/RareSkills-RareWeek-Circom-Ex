@@ -1,0 +1,8 @@
+{
+  "name": "twelve-or-fifteen-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom twelve_or_fifteen.circom --r1cs --wasm --sym --output twelve_or_fifteen_js",
+    "test": "mocha twelve_or_fifteen.test.js"
+  }
+}

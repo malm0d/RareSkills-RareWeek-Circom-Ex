@@ -1,0 +1,6 @@
+.DS_Store
+.r1cs
+.sym
+.wasm
+*_js/
+**/node_modules/

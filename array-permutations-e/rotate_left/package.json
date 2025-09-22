@@ -1,0 +1,16 @@
+{
+  "name": "rotate-left-circuit",
+  "version": "1.0.0",
+  "description": "Circuit that rotates an input array left by r positions",
+  "main": "rotate_left.test.js",
+  "scripts": {
+    "test": "mocha rotate_left.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "circom_runtime": "^0.1.21"
+  },
+  "keywords": ["circom", "zero-knowledge", "array", "rotate", "permutation"],
+  "author": "",
+  "license": "MIT"
+}

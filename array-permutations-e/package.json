@@ -1,0 +1,20 @@
+{
+  "name": "interval-constraint-circuit",
+  "version": "1.0.0",
+  "description": "Circuit that constrains x to be in the interval [0, 5]",
+  "main": "interval_constraint.test.js",
+  "scripts": {
+    "test": "mocha interval_constraint.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "circom_runtime": "^0.1.21",
+    "circomlib": "^2.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "keywords": ["circom", "zero-knowledge", "interval", "constraints"],
+  "author": "",
+  "license": "MIT"
+}

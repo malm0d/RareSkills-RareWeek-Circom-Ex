@@ -1,0 +1,8 @@
+{
+  "name": "interval-constraint-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom interval_constraint.circom --r1cs --wasm --sym --output interval_constraint_js",
+    "test": "mocha interval_constraint.test.js"
+  }
+}

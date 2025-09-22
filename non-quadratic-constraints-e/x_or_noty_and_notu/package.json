@@ -1,0 +1,8 @@
+{
+  "name": "x-or-noty-and-notu-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mkdir -p x_or_noty_and_notu_js && circom x_or_noty_and_notu.circom --r1cs --wasm --sym -o x_or_noty_and_notu_js",
+    "test": "mocha x_or_noty_and_notu.test.js"
+  }
+}

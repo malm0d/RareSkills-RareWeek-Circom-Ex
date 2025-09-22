@@ -1,0 +1,8 @@
+{
+  "name": "zero-or-one-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom zero_or_one.circom --r1cs --wasm --sym --output zero_or_one_js",
+    "test": "mocha zero_or_one.test.js"
+  }
+}

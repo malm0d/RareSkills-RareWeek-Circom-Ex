@@ -1,0 +1,8 @@
+{
+  "name": "square-root-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom square_root.circom --r1cs --wasm --sym --output square_root_js",
+    "test": "mocha square_root.test.js"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "zero-one-two-or-three-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mkdir -p zero_one_two_or_three_js && circom zero_one_two_or_three.circom --r1cs --wasm --sym -o zero_one_two_or_three_js",
+    "test": "mocha zero_one_two_or_three.test.js"
+  }
+}

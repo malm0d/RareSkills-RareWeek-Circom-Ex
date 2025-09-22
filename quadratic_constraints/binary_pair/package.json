@@ -1,0 +1,8 @@
+{
+  "name": "binary-pair-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom binary_pair.circom --r1cs --wasm --sym --output binary_pair_js",
+    "test": "mocha binary_pair.test.js"
+  }
+}

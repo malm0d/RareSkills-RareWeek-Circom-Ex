@@ -1,0 +1,8 @@
+{
+  "name": "open-closed-intervals-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom open_closed_intervals.circom --r1cs --wasm --sym --output open_closed_intervals_js",
+    "test": "mocha open_closed_intervals.test.js"
+  }
+}

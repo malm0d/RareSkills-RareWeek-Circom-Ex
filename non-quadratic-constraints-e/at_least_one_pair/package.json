@@ -1,0 +1,8 @@
+{
+  "name": "at-least-one-pair-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mkdir -p at_least_one_pair_js && circom at_least_one_pair.circom --r1cs --wasm --sym -o at_least_one_pair_js",
+    "test": "mocha at_least_one_pair.test.js"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "cube-root-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mkdir -p cube_root_js && circom cube_root.circom --r1cs --wasm --sym -o cube_root_js",
+    "test": "mocha cube_root.test.js"
+  }
+}

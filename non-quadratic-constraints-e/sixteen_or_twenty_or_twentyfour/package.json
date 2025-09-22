@@ -1,0 +1,8 @@
+{
+  "name": "sixteen-or-twenty-or-twentyfour-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "mkdir -p sixteen_or_twenty_or_twentyfour_js && circom sixteen_or_twenty_or_twentyfour.circom --r1cs --wasm --sym -o sixteen_or_twenty_or_twentyfour_js",
+    "test": "mocha sixteen_or_twenty_or_twentyfour.test.js"
+  }
+}

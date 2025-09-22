@@ -1,0 +1,8 @@
+{
+  "name": "disjoint-intervals-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom disjoint_intervals.circom --r1cs --wasm --sym --output disjoint_intervals_js",
+    "test": "mocha disjoint_intervals.test.js"
+  }
+}

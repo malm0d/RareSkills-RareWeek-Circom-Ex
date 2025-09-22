@@ -1,0 +1,8 @@
+{
+  "name": "multiplication-32bit-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom multiplication_32bit.circom --r1cs --wasm --sym --output multiplication_32bit_js",
+    "test": "mocha multiplication_32bit.test.js"
+  }
+}

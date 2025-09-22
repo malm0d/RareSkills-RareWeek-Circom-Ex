@@ -1,0 +1,8 @@
+{
+  "name": "binary-to-decimal-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom binary_to_decimal.circom --r1cs --wasm --sym --output binary_to_decimal_js",
+    "test": "mocha binary_to_decimal.test.js"
+  }
+}

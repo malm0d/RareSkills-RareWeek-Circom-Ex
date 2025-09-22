@@ -1,0 +1,8 @@
+{
+  "name": "quadratic-solution-circuit",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "circom quadratic_solution.circom --r1cs --wasm --sym --output quadratic_solution_js",
+    "test": "mocha quadratic_solution.test.js"
+  }
+}
